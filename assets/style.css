@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    /*display: flex; */
+    padding: 20px;
+    width: 100%;
+    /*justify-content: space-between; */
+    background-color: blueviolet;
+    color: #ffffff;
+
+}
+
+.header h1 {
+    display: inline-block;
+    /*text-align: start;*/
+    /*align-self: center; */
+
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* nav ul {
+    text-align: end;
+} */
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.section {
+    padding: 20px;
+    
+}
+
+.heroImage {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/pexels-markusspiske-1089440.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+.work {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    /*position: relative; */
+}
+
+
+
+/*.project1 {
+    /*flex: 1 0 200px; 
+    width: 70%;
+    /* max-height: 50%;
+    width: 50%; 
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    display: inline-block;
+
+}*/
+
+.gallery {
+    /*width: 70%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+    justify-content:space-between;
+}
+
+
+.project1 {
+    flex: 0 0 45%;
+   /*margin: 10px;*/
+   padding: 10px;
+    width: 399px;
+    height: 35%;
+
+}
+
+.project {
+    flex: 1 0 200px;
+  flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+
+}
+
+.project1 img {
+    /*width: auto; */
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+} 
+
+
+.mainProject {
+    flex: 2 0 100%; 
+/*padding-left: 20px; */
+    text-align: right;
+    /*display: flex;*/
+    position: relative;
+}
+
+.imageTitle {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: blueviolet;
+   /*display: flex; */
+}
+
+.heroTitle {
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.info {
+    display: inline-block;
+    width: 29%;
+    text-align: left; 
+    /*float: left; */
+    margin-right: 10px;
+    /*top: 0px; */
+}
+
+.description {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline;
+    width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+footer {
+    background-color: blueviolet;
+    display: block;
+    color: #ffffff;
+    height: 100px;
+
+}
+
+footer h2 {
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+footer nav {
+    padding-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+footer nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
