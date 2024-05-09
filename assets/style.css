@@ -52,8 +52,8 @@ a {
 
 section {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column; */
 
 }
 
@@ -63,6 +63,7 @@ section h2 {
 
 section p {
     flex: 1;
+    
 }
 
 .heroImage {
@@ -76,6 +77,13 @@ section p {
     position: relative;
 } 
 
+.heroTitle {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 25px;
+    color: #ffffff;
+}
 
 
 
@@ -116,7 +124,8 @@ section p {
 .container {
  width: 90%; 
  max-width: 1200px;
-    margin: auto;
+margin-left: auto;
+justify-content: right;
    
 /* GRID */
 /*
@@ -127,6 +136,7 @@ section p {
    /*FLEXBOX*/
     display: flex;
     gap: 20px;
+   
 
      /*
       padding: 40px 0px;
@@ -146,6 +156,8 @@ section p {
   width: 70%; 
     display: flex;
     flex-wrap: wrap;
+    float: right;
+    
    
 
   
@@ -165,7 +177,7 @@ grid-template-columns: repeat(2,1fr); */
 
 }
 .project {
-    flex: 1 0 45%;
+flex: 1 0 45%;
  width: 45%; 
  height: 300px;
  /*min-height: 200px; */
@@ -246,13 +258,6 @@ grid-template-columns: repeat(2,1fr); */
     position: relative;
 }
 
-.heroTitle {
-    position: absolute;
-    bottom: 60%;
-    right: 5%;
-    font-size: 30px;
-    color: #ffffff;
-}
 
 
 .imageTitle {
@@ -278,7 +283,7 @@ grid-template-columns: repeat(2,1fr); */
 
 .description {
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
     display: inline;
     width: 70%;
     height: 100px;
@@ -305,15 +310,15 @@ footer h3 {
 
 .contact h2 {
     display: inline-block;
-    padding-top: 50px;
     margin-left: 20px;
 }
 
 .contact nav {
     display: inline-block;
     padding-top: 50px;
-    margin-right: 20px;
-    justify-content: ;
+    margin-left: 30px;
+    justify-content: right;
+   
 }
 
 .contact nav ul li {
@@ -324,16 +329,17 @@ footer h3 {
 }
 
 .contact a {
-    color: black;
+    color: purple;
 }
 
 /*RESPONSIVE */
 
 @media screen and (max-width: 992px) {
-    .gallery {
+    .containerProject {
      flex-direction: column;
      display: block;
      width: 100%;
+     
     }
 
 .project1 img {
@@ -346,7 +352,8 @@ footer h3 {
     text-align: left;
     float: left; 
     padding-right: 40px;*/
-    width: 30%;
+    width: 20%;
+    border-right: 0px;
     margin-bottom: 10px; 
     border-bottom: 5px solid darkmagenta;
     /*top: 0px; */
