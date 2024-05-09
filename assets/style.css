@@ -217,9 +217,16 @@ box-shadow: #ffffff;
 box-shadow: 0 5px 15px rgba(156, 148, 228, 0.4);
 
 outline: 5px solid #faa7fa;*/
-
+/* BORDER */
 padding: 0px;
 border: 5px  solid #faa7fa;
+
+/* BOX SHADOW
+padding: 0px;
+background: #562386;
+box-shadow: 0 0 0 2px #d0d0d0;
+*/
+
 }
 
 /*.project {
