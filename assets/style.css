@@ -71,7 +71,7 @@ section p {
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/pexels-markusspiske-1089440.jpg");
+    background-image: url("assets/images/pexels-markusspiske-1089440.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
