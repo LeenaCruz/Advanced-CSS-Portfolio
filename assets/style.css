@@ -65,13 +65,14 @@ section p {
     flex: 1;
 }
 
-/*.heroImage {
+.heroImage {
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("/assets/images/pexels-markusspiske-1089440.jpg");
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     position: relative;
 } 
 
@@ -188,7 +189,7 @@ grid-template-columns: repeat(2,1fr); */
 
 
 .infoWork {
-    width: 30%;
+    width: 20%;
     display: inline-block;
     text-align: left;
    margin-left: 0px;
@@ -309,14 +310,14 @@ footer h3 {
 }
 
 .contact nav {
+    display: inline-block;
     padding-top: 50px;
     margin-right: 20px;
-    float: right;
+    justify-content: ;
 }
 
 .contact nav ul li {
 
-    list-style-type: none;
     display: inline-block;
     margin-left: 20px;
 
