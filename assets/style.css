@@ -210,7 +210,7 @@ flex: 1 0 45%;
     border-right: 5px solid darkmagenta;
 }
 
-.containerProject div img:hover {
+.containerProject div:hover {
     /*padding: 5px;
   border: 10px solid #ffffff;
 box-shadow: #ffffff;
@@ -218,6 +218,7 @@ box-shadow: 0 5px 15px rgba(156, 148, 228, 0.4);
 
 outline: 5px solid #faa7fa;*/
 
+padding: 0px;
 border: 5px  solid #faa7fa;
 }
 
