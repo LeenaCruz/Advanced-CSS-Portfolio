@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #BBB4C5;
+}
+
+.header {
+    /*display: flex; */
+    padding: 20px;
+    width: 100%;
+    /*justify-content: space-between; */
+    background-color: blueviolet;
+    color: #ffffff;
+
+}
+
+.header h1 {
+    display: inline-block;
+    /*text-align: start;*/
+    /*align-self: center; */
+
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* nav ul {
+    text-align: end;
+} */
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.section {
+    padding: 20px;
+
+}
+
+/*.heroImage {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/pexels-markusspiske-1089440.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+
+
+
+
+
+/*.work {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    /*position: relative; 
+}*/
+
+
+/*.project1 {
+    /*flex: 1 0 200px; 
+    width: 70%;
+    /* max-height: 50%;
+    width: 50%; 
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    display: inline-block;
+
+}*/
+
+.gallery {
+    width: 70%; 
+    /*margin: 20px;*/
+    top: 20px;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-end;
+    clear: both;
+}
+
+
+.project1 {
+  
+    flex: 0 0 45%;
+    /*display: inline-block;
+    /*margin: 10px;*/
+    width: 365px;
+    float: right;
+    padding: 0px;
+    /*max-width: 45%;
+    text-align: right; */
+    justify-content: space-between;
+}
+
+/*.project1 img:hover {
+    background-color: black;
+
+}*/
+
+/*.project {
+    flex: 1 0 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: right;
+    /*display: flex;*/
+    /*align-items: flex-end ; 
+    justify-content: space-between;
+
+} */
+
+.project1 img {
+   width: 80%; 
+   /* display: inline-block; 
+    /* margin: 10px;
+    padding: 10px;
+    */
+    /*width: 399px;*/
+
+}
+
+.heroProject {
+    width: 100%;
+    position:relative;
+}
+
+.mainProject {
+    overflow: hidden;
+    flex: 2 0 100%;
+    /*padding-left: 20px; */
+    width: 70%;
+    min-height: 600px;
+    height: auto;
+   
+    
+
+   /* text-align: right;*/
+    /*display: flex;*/
+    float: right;
+    position: relative;
+}
+
+.heroTitle {
+    position: absolute;
+    bottom: 60%;
+    right: 5%;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.imageTitle {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: blueviolet;
+    /*display: flex; */
+}
+
+.info {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    /*float: left; */
+    margin-right: 10px;
+    /*top: 0px; */
+}
+
+.description {
+    padding: 10px;
+    margin-left: 10px;
+    display: inline;
+    width: 70%;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    background-color: blueviolet;
+    display: block;
+    color: #ffffff;
+    height: 100px;
+
+}
+
+footer h2 {
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+footer nav {
+    padding-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+footer nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .gallery {
+     flex-direction: column;
+     display: block;
+     width: 100%;
+    }
+
+.project1 img {
+    width: 100%;
+}
+  }
