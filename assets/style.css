@@ -145,17 +145,6 @@ section p {
     position: relative;
 }
 
-.mainProject {
-    overflow: hidden;
-    flex: 2 0 100%;
-    width: 70%;
-    min-height: 600px;
-    height: auto;
-    float: right;
-    position: relative;
-}
-
-
 
 .imageTitle {
     position: absolute;
