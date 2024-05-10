@@ -40,5 +40,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [Advanced CSS Portfolio](https://leenacruz.github.io/Advanced-CSS-Portfolio/)
 
+## Resources 
 
+[Flexbox Info](https://www.youtube.com/watch?v=6qko7Nbe8YA)
 
