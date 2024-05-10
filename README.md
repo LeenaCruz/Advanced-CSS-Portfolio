@@ -38,7 +38,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Live URL
 
-[Advaced CSS Portfolio](https://leenacruz.github.io/Advanced-CSS-Portfolio/)
+[Advanced CSS Portfolio](https://leenacruz.github.io/Advanced-CSS-Portfolio/)
 
 
 
