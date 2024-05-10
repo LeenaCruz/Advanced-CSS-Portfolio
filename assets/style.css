@@ -120,15 +120,7 @@ section p {
 }
 
 
-.infoWork {
-    width: 20%;
-    display: inline-block;
-    text-align: left;
-    margin-left: 0px;
-    padding-right: 40px;
-    margin-right: 10px;
-    border-right: 5px solid darkmagenta;
-}
+
 
 .containerProject div:hover {
 
@@ -231,7 +223,7 @@ footer h3 {
 
     }
 
-    .project1 img {
+    .project img {
         width: 100%;
     }
 
