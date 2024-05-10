@@ -304,7 +304,7 @@ box-shadow: 0 0 0 2px #d0d0d0;
 .description {
     padding: 10px;
     margin-left: 30px;
-    display: inline;
+    display: inline-block;
     width: 70%;
     height: 100px;
     flex-direction: row;
