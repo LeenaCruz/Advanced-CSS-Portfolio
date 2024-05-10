@@ -46,7 +46,7 @@ a {
 
 
 section {
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -56,6 +56,16 @@ section h2 {
 
 section p {
     flex: 1;
+
+}
+
+.profilePic {
+
+ 
+    display: inline;
+    margin: 20px 20px 20px 0px;
+    height: 150px;
+   
 
 }
 
@@ -211,6 +221,7 @@ footer h3 {
 
     .container {
         width: 100%;
+        height: auto;
     }
 
     .containerProject {
@@ -222,6 +233,7 @@ footer h3 {
 
     .project img {
         width: 100%;
+        height: auto;
     }
 
     .info {
@@ -232,5 +244,7 @@ footer h3 {
         border-bottom: 5px solid darkmagenta;
 
     }
+
+   
 
 }
