@@ -32,10 +32,13 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ```
+## Mock UP 
+
+<img src="/assets/images/AdvancedCSSPortfolio.gif" alt="gif" width="696" height="480">
 
 ## Live URL
 
-[Advace CSS Portfolio](https://leenacruz.github.io/Advanced-CSS-Portfolio/)
+[Advaced CSS Portfolio](https://leenacruz.github.io/Advanced-CSS-Portfolio/)
 
 
 

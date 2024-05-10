@@ -132,7 +132,7 @@ section p {
 
 
 
-.imageTitle {
+.projectTitle {
     position: absolute;
     bottom: 20px;
     right: 0px;
@@ -142,9 +142,7 @@ section p {
 
 }
 
-
-
-
+/* Styles Sections Names */ 
 .info {
     display: inline-block;
     width: 20%;
@@ -163,22 +161,6 @@ section p {
     height: 100px;
     flex-direction: column;
     flex-wrap: wrap;
-
-}
-
-footer {
-    background-color: blueviolet;
-    display: block;
-    color: #ffffff;
-    height: 100px;
-    margin-top: 20px;
-
-}
-
-footer h3 {
-    padding-top: 20px;
-    font size: 18px;
-    text-align: center;
 
 }
 
@@ -207,9 +189,30 @@ footer h3 {
     color: purple;
 }
 
+footer {
+    background-color: blueviolet;
+    display: block;
+    color: #ffffff;
+    height: 100px;
+    margin-top: 20px;
+
+}
+
+footer h3 {
+    padding-top: 20px;
+    font size: 18px;
+    text-align: center;
+
+}
+
 /*RESPONSIVE */
 
 @media screen and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+    }
+
     .containerProject {
         flex-direction: column;
         display: block;
